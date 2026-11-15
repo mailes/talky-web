@@ -4,7 +4,7 @@
 
 [Website](https://talkytalky.im/?utm_source=github&utm_medium=readme&utm_campaign=talky_web) · [Web app](https://web.talkytalky.im/) · [简体中文](README.zh-CN.md) · [iOS](https://github.com/mailes/talky-ios) · [Android](https://github.com/mailes/talky-android) · [Desktop](https://github.com/mailes/talky-desktop)
 
-Talky Web is the browser client for Talky, built with TypeScript, Solid.js, and MTProto. It derives from Telegram Web K and the gramsrv-tweb fork. Features and availability depend on the connected service.
+Talky Web is the browser client for Talky, built with TypeScript, Solid.js, and MTProto. Features and availability depend on the connected service.
 
 ## Development
 
@@ -32,6 +32,6 @@ Production credentials and previous compiled deployment assets are excluded. Onl
 
 Open an issue with reproduction steps or submit a focused pull request. Remove personal information from logs and screenshots. Report vulnerabilities privately using [GitHub private vulnerability reporting](https://github.com/mailes/talky-web/security/advisories/new).
 
-## License and upstream
+## License
 
-GPL-3.0-only; see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). Preserve upstream and dependency license notices. This is an independent project, not an official Telegram client. The [upstream documentation](docs/UPSTREAM.md) includes dependency attribution and technical background.
+GPL-3.0-only; see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md). Preserve upstream and dependency license notices. This is an independent project, not an official Telegram client.
