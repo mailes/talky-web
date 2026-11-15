@@ -1,0 +1,11 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Public deterministic TDLib encryption test vectors, not account keys"
+paths = ['''^src/lib/calls/e2e/tests/vectors\.ts$''']
+
+[[allowlists]]
+description = "UI shortcut and application-config property names, not credentials"
+regexTarget = "match"
+regexes = ['''(?:Ctrl\+Shift\+KeyZ|stars_paid_message_commission_permille|stars_usd_withdraw_rate_x1000)''']
